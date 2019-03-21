@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
-    <UserSecretsId>aspnet-AspNetCoreTemplate-BBB373B5-EF3F-4DBB-B8AA-7152CEC275BF</UserSecretsId>
+    <UserSecretsId>aspnet-ERP-BBB373B5-EF3F-4DBB-B8AA-7152CEC275BF</UserSecretsId>
 	<AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
@@ -29,12 +29,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Data\AspNetCoreTemplate.Data.Models\ERP.Data.Models.csproj" />
-    <ProjectReference Include="..\..\Data\AspNetCoreTemplate.Data\ERP.Data.csproj" />
-    <ProjectReference Include="..\..\Services\AspNetCoreTemplate.Services.Data\ERP.Services.Data.csproj" />
-    <ProjectReference Include="..\..\Services\AspNetCoreTemplate.Services.Mapping\ERP.Services.Mapping.csproj" />
-    <ProjectReference Include="..\..\Services\AspNetCoreTemplate.Services.Messaging\ERP.Services.Messaging.csproj" />
-    <ProjectReference Include="..\..\Services\AspNetCoreTemplate.Services\ERP.Services.csproj" />
-    <ProjectReference Include="..\AspNetCoreTemplate.Web.Infrastructure\ERP.Web.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Data\ERP.Data.Models\ERP.Data.Models.csproj" />
+    <ProjectReference Include="..\..\Data\ERP.Data\ERP.Data.csproj" />
+    <ProjectReference Include="..\..\Services\ERP.Services.Data\ERP.Services.Data.csproj" />
+    <ProjectReference Include="..\..\Services\ERP.Services.Mapping\ERP.Services.Mapping.csproj" />
+    <ProjectReference Include="..\..\Services\ERP.Services.Messaging\ERP.Services.Messaging.csproj" />
+    <ProjectReference Include="..\..\Services\ERP.Services\ERP.Services.csproj" />
+    <ProjectReference Include="..\ERP.Web.Infrastructure\ERP.Web.Infrastructure.csproj" />
   </ItemGroup>
 </Project>

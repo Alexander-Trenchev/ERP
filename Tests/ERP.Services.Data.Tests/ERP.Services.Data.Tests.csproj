@@ -27,8 +27,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Data\AspNetCoreTemplate.Data\ERP.Data.csproj" />
-    <ProjectReference Include="..\..\Services\AspNetCoreTemplate.Services.Data\ERP.Services.Data.csproj" />
+    <ProjectReference Include="..\..\Data\ERP.Data\ERP.Data.csproj" />
+    <ProjectReference Include="..\..\Services\ERP.Services.Data\ERP.Services.Data.csproj" />
   </ItemGroup>
 
 </Project>

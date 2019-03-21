@@ -36,9 +36,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\AspNetCoreTemplate.Common\ERP.Common.csproj" />
-    <ProjectReference Include="..\AspNetCoreTemplate.Data.Common\ERP.Data.Common.csproj" />
-    <ProjectReference Include="..\AspNetCoreTemplate.Data.Models\ERP.Data.Models.csproj" />
+    <ProjectReference Include="..\..\ERP.Common\ERP.Common.csproj" />
+    <ProjectReference Include="..\ERP.Data.Common\ERP.Data.Common.csproj" />
+    <ProjectReference Include="..\ERP.Data.Models\ERP.Data.Models.csproj" />
   </ItemGroup>
 
 </Project>

@@ -29,7 +29,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Web\AspNetCoreTemplate.Web\ERP.Web.csproj" />
+    <ProjectReference Include="..\..\Web\ERP.Web\ERP.Web.csproj" />
   </ItemGroup>
 
 </Project>
